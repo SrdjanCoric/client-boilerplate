@@ -11,11 +11,11 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./setupTests.ts"],
   },
-  // // proxy setup
+  // // proxy setup (only for full stack apps)
   // server: {
   //   proxy: {
   //     "/api": {
-  //       target: "http://localhost:3001",
+  //       target: "http://localhost:5001",
   //     },
   //   },
   // },
